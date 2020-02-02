@@ -20,7 +20,7 @@
         <ul>
           <li>
             <!-- здесь будет фоновая картиночка "img/login.svg" width="14" height="14" -->
-             <button type="button">Войти</button>
+             <a href="login.html">Вход</a>
            </li>
         </ul>
       </nav>
@@ -34,9 +34,36 @@
           <li>Средства для ухода</li>
       </ul>
       <section>
-        <h2>Фильтр товаров</h2>
-        <!-- Тут будет форма с фоновыми переключателями 
+        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <!-- Тут будет форма с фоновыми переключателями
         "img/cross.svg" width="12" height="12" - в активном состоянии -->
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <fieldset>
+            <legend>Производители</legend>
+            <ul>
+              <li>
+                <label>
+                <input type="checkbox" name="baxter-of-california" checked>
+                Baxter of California</label>
+              </li>
+              <li>
+                <label>
+                <input type="checkbox" name="mr-natty" checked>
+                Mr Natty</label>
+              </li>
+              <li>
+                <label>
+                <input type="checkbox" name="suavecito" checked>
+                Suavecito</label>
+              </li>
+              <li>
+                <label>
+                <input type="checkbox" name="baxter-of-california" checked>
+                Baxter of California</label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
       </section>
 
       <section>
