@@ -8,25 +8,28 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <!-- здесь будет большая фоновая картинка "img/background-image.jpg" width="2560" height="1716" -->
+
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
           <img src="img/index-logo.svg" width="371" height="155" alt="Логотип барбершопа «Бородинский»">
         </a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="price.html">Прайс-лист</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <ul>
-          <li>
-            <!-- здесь будет фоновая картиночка "img/login.svg" width="14" height="14" -->
-             <a href="login.html">Вход</a>
-           </li>
-        </ul>
+        <div class="main-navigation-wrapper">
+          <div class="container">
+            <ul class="site-navigation">
+              <li><a href="info.html">Информация</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="price.html">Прайс-лист</a></li>
+              <li><a href="catalog.html">Магазин</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="user-navigation">
+              <li>
+                <a class="login-link" href="login.html">Вход</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -125,26 +128,28 @@
     </main>
 
     <footer class="main-footer">
-      <p class="footer-contacts">
-        Барбершоп «Бородинский»<br>
-        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-        <a href="map.html">Как нас найти?</a><br>
-        <a href="tel:+78126660266">Телефон: +7 (812) 666-02-66</a>
-      </p>
-      <div class="footer-social">
-        <p>Давайте дружить!</p>
-        <ul>
-          <!-- здесь будет фоновая картиночка "img/vk.svg" width="27" height="15" -->
-          <li><a class="social-button" href="#" aria-label="Вконтакте"></a></li>
-          <!-- здесь будет фоновая картиночка "img/facebook.svg" width="11" height="22" -->
-          <li><a class="social-button" href="#" aria-label="Фейсбук"></a></li>
-          <!-- здесь будет фоновая картиночка "img/instagram.svg" width="20" height="20" -->
-          <li><a class="social-button" href="#" aria-label="Инстаграм"></a></li>
-        </ul>
+      <div class="container">
+        <p class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="map.html">Как нас найти?</a><br>
+          <a href="tel:+78126660266">Телефон: +7 (812) 666-02-66</a>
+        </p>
+        <div class="footer-social">
+          <p>Давайте дружить!</p>
+          <ul>
+            <!-- здесь будет фоновая картиночка "img/vk.svg" width="27" height="15" -->
+            <li><a class="social-button" href="#" aria-label="Вконтакте"></a></li>
+            <!-- здесь будет фоновая картиночка "img/facebook.svg" width="11" height="22" -->
+            <li><a class="social-button" href="#" aria-label="Фейсбук"></a></li>
+            <!-- здесь будет фоновая картиночка "img/instagram.svg" width="20" height="20" -->
+            <li><a class="social-button" href="#" aria-label="Инстаграм"></a></li>
+          </ul>
+        </div>
+        <p class="footer-copyright">
+          Разработано: <a href="https://htmlacademy.ru">HTML Academy</a>
+        </p>
       </div>
-      <p class="footer-copyright">
-        Разработано: <a href="https://htmlacademy.ru">HTML Academy</a>
-      </p>
     </footer>
 
     <section class="modal modal-login">
